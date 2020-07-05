@@ -4,7 +4,7 @@ import tkinter as tk
 from PIL import Image, ImageChops, ImageTk
 
 from .constants import DisplayModes, PixelModes, low_bpp_modes
-from . import img_manip
+import img_manip
 
 try:
     from .interface import EPD
